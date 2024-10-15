@@ -1,7 +1,6 @@
 <template>
-  <div class="home page">
-    <section class="img-principal first-section">
-      <img src="../assets/home.jpg" alt="Indie Posting Image" />
+  <div>
+    <section>
       <h1>Indie Posting</h1>
     </section>
     <section class="about">

@@ -1,76 +1,68 @@
 <template>
-  <v-app-bar
-    :class="{ navbar: true, 'navbar-hidden': !isScrolledPastFirstSection }"
-    style="color: aliceblue"
-  >
-    <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-    <v-toolbar-title style="font-size: 2rem">Indie Post</v-toolbar-title>
-    <v-spacer></v-spacer>
-    <v-btn text :to="{ path: '/' }">Home</v-btn>
-    <v-btn text :to="{ path: '/about' }">About</v-btn>
-    <v-navigation-drawer v-model="drawer" app temporary>
+  <v-container>
+    <v-app-bar :elevation="2">
+      <v-app-bar-title>Indie Posting</v-app-bar-title>
+      <template v-slot:prepend>
+        <v-app-bar-nav-icon
+          @click="drawer = !drawer"
+          v-if="!isLargeScreen"
+        ></v-app-bar-nav-icon>
+      </template>
+      <template v-slot:append>
+        <template v-if="isLargeScreen">
+          <v-btn text :to="{ path: '/' }">Homeee</v-btn>
+          <v-btn text :to="{ path: '/concerts' }">Conciertos</v-btn>
+          <v-btn text :to="{ path: '/interviews' }">Entrevistas</v-btn>
+          <v-btn text :to="{ path: '/music' }">Música</v-btn>
+          <v-btn text :to="{ path: '/about' }">Nosotros</v-btn>
+          <v-btn
+            target="_blank"
+            href="https://www.facebook.com/IndiePostingMx"
+            icon="mdi-facebook"
+          ></v-btn>
+          <v-btn
+            target="_blank"
+            href="https://www.instagram.com/indieposting.mx"
+            icon="mdi-instagram"
+          ></v-btn>
+          <v-btn icon="mdi-spotify"></v-btn>
+        </template>
+      </template>
+    </v-app-bar>
+    <v-navigation-drawer v-if="drawer" v-model="drawer" app temporary>
       <v-list dense>
         <v-list-item :to="{ path: '/' }">
           <v-list-item-title>Home</v-list-item-title>
         </v-list-item>
+        <v-list-item :to="{ path: '/concerts' }">
+          <v-list-item-title>Conciertos</v-list-item-title>
+        </v-list-item>
+        <v-list-item :to="{ path: '/interviews' }">
+          <v-list-item-title>Entrevistas</v-list-item-title>
+        </v-list-item>
+        <v-list-item :to="{ path: '/music' }">
+          <v-list-item-title>Música</v-list-item-title>
+        </v-list-item>
         <v-list-item :to="{ path: '/about' }">
-          <v-list-item-title>About</v-list-item-title>
+          <v-list-item-title>Nosotros</v-list-item-title>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-  </v-app-bar>
+  </v-container>
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted, watch } from "vue";
-import { useRouter } from "vue-router";
+import { ref, computed } from "vue";
+import { useDisplay } from "vuetify";
 
-const drawer = ref(false); ///Para el mobile
-const isScrolledPastFirstSection = ref(false); //ocultar el menu
-const router = useRouter();
+const drawer = ref(false);
+const { mdAndUp } = useDisplay();
 
-console.log(isScrolledPastFirstSection.value);
-const checkScroll = () => {
-  console.log(" function chec");
-  const firstSection = document.querySelector(".first-section");
-  console.log(firstSection);
-  if (firstSection) {
-    const firstSectionHeight = firstSection.offsetHeight;
-    isScrolledPastFirstSection.value = window.scrollY > firstSectionHeight;
-  } else {
-    isScrolledPastFirstSection.value = true;
-  }
-};
-
-onMounted(() => {
-  window.addEventListener("scroll", checkScroll);
-  checkScroll();
-});
-
-onUnmounted(() => {
-  window.removeEventListener("scroll", checkScroll);
-});
-
-watch(
-  () => router.currentRoute.value,
-  () => {
-    console.log("Watch");
-    isScrolledPastFirstSection.value = false;
-    checkScroll();
-  }
-);
+const isLargeScreen = computed(() => mdAndUp.value);
 </script>
 
 <style scoped>
-.navbar-hidden {
-  display: none;
-}
-.v-app-bar.v-toolbar {
-  background-color: transparent;
-  transition: background-color 0.3s ease, top 0.3s ease;
-
-  span.v-btn__content {
-    font-size: 2rem;
-  }
+.v-btn__content {
+  font-size: 1.5rem;
 }
 </style>
