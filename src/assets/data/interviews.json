@@ -1,0 +1,157 @@
+{
+  "title": "Entrevistas a Bandas Emergentes",
+  "description": "Un espacio dedicado a conocer a las bandas más emocionantes del panorama musical actual.",
+  "interview": [
+    {
+      "id": 1,
+      "title": "La evolución de 'Sonido Rebelde': Entrevista con la banda",
+      "band": {
+        "name": "Sonido Rebelde",
+        "genre": "Rock Alternativo",
+        "origin": "Ciudad de México, México",
+        "years_active": "2015 - Presente",
+        "members": [
+          {
+            "name": "Carlos García",
+            "role": "Vocalista y Guitarrista",
+            "bio": "Carlos es el fundador de la banda y ha liderado el grupo desde sus inicios."
+          },
+          {
+            "name": "Ana López",
+            "role": "Bajista",
+            "bio": "Ana se unió a Sonido Rebelde en 2016 y aporta una energía única al sonido de la banda."
+          },
+          {
+            "name": "Miguel Torres",
+            "role": "Baterista",
+            "bio": "Conocido por su estilo dinámico, Miguel ha sido parte de la banda desde 2017."
+          }
+        ],
+        "profile_image": "https://example.com/images/sonido-rebelde.jpg",
+        "discography": [
+          {
+            "title": "Ritmos Urbanos",
+            "year": 2017,
+            "link": "https://example.com/ritmos-urbanos"
+          },
+          {
+            "title": "Ecos del Subsuelo",
+            "year": 2020,
+            "link": "https://example.com/ecos-del-subsuelo"
+          }
+        ]
+      },
+      "interviewer": {
+        "name": "Laura Medina",
+        "occupation": "Periodista Musical"
+      },
+      "date_published": "2024-10-10",
+      "description": "En esta entrevista, 'Sonido Rebelde' nos habla sobre su evolución como banda, la creación de su segundo álbum y sus planes futuros.",
+      "questions": [
+        {
+          "question": "¿Cómo fue el proceso creativo detrás de su último álbum, 'Ecos del Subsuelo'?",
+          "answer": "Fue un viaje intenso. Queríamos explorar nuevos sonidos y salir de nuestra zona de confort. Cada miembro aportó ideas frescas, y pasamos meses experimentando en el estudio hasta dar con el sonido que queríamos."
+        },
+        {
+          "question": "¿Cómo describen la evolución de la banda desde su primer álbum?",
+          "answer": "Definitivamente hemos crecido tanto a nivel personal como musical. Nuestro primer álbum fue más crudo, directo. En 'Ecos del Subsuelo' hemos sido más detallistas, buscando una mayor profundidad lírica y musical."
+        },
+        {
+          "question": "¿Cuáles son sus planes a futuro? ¿Podemos esperar una gira pronto?",
+          "answer": "Estamos planeando una gira por América Latina para promocionar el nuevo álbum, y ya estamos trabajando en algunas canciones para un próximo EP."
+        }
+      ],
+      "tags": [
+        "Rock Alternativo",
+        "Bandas Independientes",
+        "Música",
+        "Entrevistas"
+      ],
+      "related_links": [
+        {
+          "label": "Spotify - Sonido Rebelde",
+          "url": "https://open.spotify.com/sonido-rebelde"
+        },
+        {
+          "label": "Instagram - Sonido Rebelde",
+          "url": "https://instagram.com/sonidorebelde"
+        },
+        {
+          "label": "YouTube - Sonido Rebelde",
+          "url": "https://youtube.com/sonidorebelde"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Los sonidos electrónicos de 'ElectroBeat': Entrevista con la banda",
+      "band": {
+        "name": "ElectroBeat",
+        "genre": "Electrónica",
+        "origin": "Barcelona, España",
+        "years_active": "2018 - Presente",
+        "members": [
+          {
+            "name": "Lucía Fernández",
+            "role": "Productora y DJ",
+            "bio": "Lucía es la mente creativa detrás de los beats únicos de la banda."
+          },
+          {
+            "name": "Javier Morales",
+            "role": "Tecladista",
+            "bio": "Javier es responsable de los sintetizadores y texturas sonoras que caracterizan a ElectroBeat."
+          }
+        ],
+        "profile_image": "https://example.com/images/electrobeat.jpg",
+        "discography": [
+          {
+            "title": "Ritmo Constante",
+            "year": 2019,
+            "link": "https://example.com/ritmo-constante"
+          },
+          {
+            "title": "Ciclos de Luz",
+            "year": 2022,
+            "link": "https://example.com/ciclos-de-luz"
+          }
+        ]
+      },
+      "interviewer": {
+        "name": "Carlos Ríos",
+        "occupation": "Crítico Musical"
+      },
+      "date_published": "2024-09-22",
+      "description": "En esta entrevista, 'ElectroBeat' nos cuenta sobre la creación de su segundo álbum y la inspiración detrás de sus sonidos electrónicos únicos.",
+      "questions": [
+        {
+          "question": "¿Qué inspira sus composiciones electrónicas?",
+          "answer": "Nos inspiramos en la energía de las ciudades, los sonidos urbanos y los paisajes futuristas. Buscamos fusionar lo orgánico con lo digital, creando un viaje sonoro para el oyente."
+        },
+        {
+          "question": "¿Cómo ven la escena de la música electrónica en España?",
+          "answer": "La escena está creciendo rápidamente. Hay mucho talento emergente, y las audiencias están cada vez más abiertas a explorar géneros electrónicos y experimentar con nuevos sonidos."
+        }
+      ],
+      "tags": [
+        "Electrónica",
+        "Música Experimental",
+        "Entrevistas",
+        "Bandas Emergentes"
+      ],
+      "related_links": [
+        {
+          "label": "Spotify - ElectroBeat",
+          "url": "https://open.spotify.com/electrobeat"
+        },
+        {
+          "label": "Instagram - ElectroBeat",
+          "url": "https://instagram.com/electrobeat"
+        },
+        {
+          "label": "YouTube - ElectroBeat",
+          "url": "https://youtube.com/electrobeat"
+        }
+      ]
+    }
+  ]
+}
