@@ -12,10 +12,11 @@ const vuetify = createVuetify({
     defaultTheme: "customTheme",
     themes: {
       customTheme: {
-        dark: false,
+        dark: true,
         colors: {
           primary: "#212121",
           secondary: "#FFF7E6",
+          bgDark: "#151515",
           accent: "#82b1ff",
           success: "#A5D6A7",
           background: "#424242",

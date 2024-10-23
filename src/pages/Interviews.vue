@@ -39,21 +39,42 @@
         <img class="img-principal" src="../assets/img/home.jpg" alt="" />
       </div>
     </v-card>
-    <section>
-      <v-card color="secondary" variant="tonal" class="mx-auto">
+    <section class="d-flex flex-row my-15">
+      <v-card color="bgDark" variant="flat" class="mx-auto">
         <v-card-item>
-          <v-card-title>{{}}</v-card-title>
+          <v-card-title class="text-h3 text-wrap">{{
+            interview[0].title
+          }}</v-card-title>
+          <v-card-subtitle class="my-2 text-subtitle-1">
+            Invitados:
+            {{ interview[0].band.name }} / {{ interview[0].band.genre }}
+            <hr class="my-1 opacity-40" />
+            {{ interview[0].band.origin }} /
+            {{ interview[0].band.years_active }}
+          </v-card-subtitle>
+          <v-card-text class="text-body-1">
+            <p>{{ interview[0].description }}</p>
+            <div
+              v-for="(member, index) in interview[0].band.members"
+              :key="index"
+              class="interview-card mt-6 text-secondary text-body-2"
+            >
+              <p>{{ member.name }} / {{ member.role }}</p>
+              <hr class="my-0 opacity-40" />
+              <p style="font-size: 0.75rem">{{ member.bio }}</p>
+            </div>
+          </v-card-text>
         </v-card-item>
       </v-card>
+      <RecentInterviews />
     </section>
   </div>
 </template>
 <script setup>
 import { ref } from "vue";
 import data from "../assets/data/interviews.json";
+import RecentInterviews from "../components/interviews/RecentInterviews.vue";
 
 const { title, description, interview } = data;
 const reveal = ref(false);
-console.log(data);
-console.log(title);
 </script>
