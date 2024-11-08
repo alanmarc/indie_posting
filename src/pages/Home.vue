@@ -1,6 +1,7 @@
 <template>
   <div class="page">
     <PrinciplaCard />
+    <News />
     <section class="about">
       <div class="container-about">
         <p>
@@ -67,6 +68,7 @@
 <script setup>
 import { ref } from "vue";
 import PrinciplaCard from "../components/home/PrinciplaCard.vue";
+import News from "../components/home/News.vue";
 
 const message = ref("Welcome to the home page!");
 

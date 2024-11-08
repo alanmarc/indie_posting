@@ -4,7 +4,9 @@
       <div class="align-self-center">
         <v-card-text>
           <h1 class="text-secondary text-h2 pb-4">{{ title }}</h1>
-          <h2 class="text-subtitle-1 pt-2 pb-2">{{ description }}</h2>
+          <h2 class="text-subtitle-1 font-weight-bold pt-2 pb-2">
+            {{ description }}
+          </h2>
           <p class="text-medium-emphasis">
             Puebla, Mex. {{ interview[0].date_published }}
           </p>
@@ -45,14 +47,14 @@
           <v-card-title class="text-h3 text-wrap">{{
             interview[0].title
           }}</v-card-title>
-          <v-card-subtitle class="my-2 text-subtitle-1">
+          <v-card-subtitle class="my-2 text-subtitle-1 font-weight-bold">
             Invitados:
             {{ interview[0].band.name }} / {{ interview[0].band.genre }}
             <hr class="my-1 opacity-40" />
             {{ interview[0].band.origin }} /
             {{ interview[0].band.years_active }}
           </v-card-subtitle>
-          <v-card-text class="text-body-1">
+          <v-card-text class="text-body-1 font-weight-boldb">
             <p>{{ interview[0].description }}</p>
             <div
               v-for="(member, index) in interview[0].band.members"

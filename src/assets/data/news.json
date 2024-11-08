@@ -1,0 +1,194 @@
+{
+  "events": [
+    {
+      "title": "Tecate Comuna 2024",
+      "summary": "El Tecate Comuna 2024 reunirá a grandes exponentes del rock y pop latino en Puebla, México, prometiendo una experiencia inolvidable para los amantes de la música.",
+      "date": "2024-10-19",
+      "location": "Parque Ecológico, Puebla, México",
+      "tickets_url": "https://www.tecatecomuna.com/tickets",
+      "lineup": [
+        {
+          "artist_name": "Caifanes",
+          "stage": "Escenario Principal",
+          "time": "21:00"
+        },
+        {
+          "artist_name": "Los Auténticos Decadentes",
+          "stage": "Escenario Tecate",
+          "time": "19:30"
+        },
+        {
+          "artist_name": "Molotov",
+          "stage": "Escenario Alternativo",
+          "time": "18:45"
+        }
+      ],
+      "interviews": [
+        {
+          "interviewer": "Carla Ruiz",
+          "date": "2024-10-15",
+          "artist": "Caifanes",
+          "highlights": "Caifanes promete una presentación inolvidable y comparte su emoción de estar de vuelta en Puebla.",
+          "content": "Saúl Hernández cuenta que el Tecate Comuna representa una oportunidad especial para conectar con las nuevas generaciones y ofrecer una experiencia única en vivo."
+        }
+      ],
+      "news": [
+        {
+          "headline": "Tecate Comuna 2024 revela su cartel oficial",
+          "date": "2024-08-20",
+          "content": "El festival ha anunciado su cartel completo, incluyendo a Caifanes, Molotov y Los Auténticos Decadentes como actos principales en un evento que promete ser inolvidable."
+        }
+      ]
+    },
+    {
+      "title": "Unplugged de Los Bunkers",
+      "summary": "Los Bunkers presentan su primer concierto Unplugged, revisitando sus grandes éxitos en un formato acústico íntimo.",
+      "date": "2024-11-25",
+      "location": "Auditorio Nacional, Ciudad de México",
+      "tickets_url": "https://www.ticketmaster.com/unplugged-losbunkers",
+      "lineup": [
+        {
+          "artist_name": "Los Bunkers",
+          "stage": "Auditorio Nacional",
+          "time": "20:00"
+        }
+      ],
+      "interviews": [
+        {
+          "interviewer": "Miguel Álvarez",
+          "date": "2024-11-10",
+          "artist": "Los Bunkers",
+          "highlights": "La banda chilena anticipa una noche especial llena de sorpresas y versiones únicas de sus grandes éxitos.",
+          "content": "El guitarrista Mauricio Durán menciona cómo prepararon arreglos especiales y adaptaciones de sus canciones para este concierto acústico, un formato completamente nuevo para la banda."
+        }
+      ],
+      "news": [
+        {
+          "headline": "Los Bunkers anuncian Unplugged en la Ciudad de México",
+          "date": "2024-09-15",
+          "content": "La banda chilena ha anunciado su primer Unplugged oficial, que se celebrará en el Auditorio Nacional. Se esperan sorpresas y colaboraciones con músicos invitados."
+        }
+      ]
+    },
+    {
+      "title": "Corona Capital 2024",
+      "summary": "Corona Capital 2024 vuelve con un lineup impresionante de artistas internacionales en la Ciudad de México.",
+      "date": "2024-11-16",
+      "location": "Autódromo Hermanos Rodríguez, Ciudad de México",
+      "tickets_url": "https://www.coronacapital.com/tickets",
+      "lineup": [
+        {
+          "artist_name": "Arctic Monkeys",
+          "stage": "Escenario Principal",
+          "time": "22:00"
+        },
+        {
+          "artist_name": "The Strokes",
+          "stage": "Escenario Alterno",
+          "time": "20:30"
+        },
+        {
+          "artist_name": "Interpol",
+          "stage": "Escenario Indie",
+          "time": "19:00"
+        }
+      ],
+      "interviews": [
+        {
+          "interviewer": "Sofía García",
+          "date": "2024-11-12",
+          "artist": "The Strokes",
+          "highlights": "The Strokes discuten su regreso a los escenarios en Latinoamérica y el entusiasmo de tocar frente a sus fans mexicanos.",
+          "content": "Julian Casablancas comenta cómo México siempre ha sido especial para la banda y adelanta que tocarán algunos temas nunca antes presentados en el país."
+        }
+      ],
+      "news": [
+        {
+          "headline": "Corona Capital 2024 revela artistas principales",
+          "date": "2024-09-01",
+          "content": "Arctic Monkeys, The Strokes e Interpol encabezan la lista de artistas en el Corona Capital 2024, que promete una experiencia inolvidable para los amantes de la música alternativa."
+        }
+      ]
+    },
+    {
+      "title": "Festival Día de Muertos 2024",
+      "summary": "Este festival único celebra el Día de Muertos con música en vivo, danza y gastronomía en el corazón de la Ciudad de México.",
+      "date": "2024-10-31",
+      "location": "Zócalo, Ciudad de México",
+      "tickets_url": "https://www.festivaldiademuertos.com/tickets",
+      "lineup": [
+        {
+          "artist_name": "Lila Downs",
+          "stage": "Escenario Principal",
+          "time": "20:00"
+        },
+        {
+          "artist_name": "Natalia Lafourcade",
+          "stage": "Escenario Cultural",
+          "time": "18:30"
+        },
+        {
+          "artist_name": "Ballet Folklórico de México",
+          "stage": "Escenario Tradicional",
+          "time": "17:00"
+        }
+      ],
+      "interviews": [
+        {
+          "interviewer": "Juan Pérez",
+          "date": "2024-10-25",
+          "artist": "Lila Downs",
+          "highlights": "Lila Downs habla sobre la conexión cultural y espiritual de la música en el Día de Muertos.",
+          "content": "La cantante oaxaqueña menciona que este evento es muy especial para ella, ya que rinde homenaje a las tradiciones mexicanas y a sus ancestros."
+        }
+      ],
+      "news": [
+        {
+          "headline": "Festival Día de Muertos 2024 anuncia programa cultural",
+          "date": "2024-09-20",
+          "content": "El festival contará con una variada programación de actividades, incluyendo música, danza y talleres culturales que buscan preservar la tradición del Día de Muertos."
+        }
+      ]
+    },
+    {
+      "title": "Ritmo Urbano Fest 2025",
+      "summary": "El Ritmo Urbano Fest 2025 reúne a los mejores exponentes del rap y reguetón en un solo lugar.",
+      "date": "2025-02-10",
+      "location": "Parque Bicentenario, Ciudad de México",
+      "tickets_url": "https://www.ritmourbano.com/tickets",
+      "lineup": [
+        {
+          "artist_name": "Bad Bunny",
+          "stage": "Escenario Urbano",
+          "time": "22:30"
+        },
+        {
+          "artist_name": "Daddy Yankee",
+          "stage": "Escenario Urbano",
+          "time": "21:00"
+        },
+        {
+          "artist_name": "Karol G",
+          "stage": "Escenario Alternativo",
+          "time": "19:30"
+        }
+      ],
+      "interviews": [
+        {
+          "interviewer": "Lucía Campos",
+          "date": "2025-01-20",
+          "artist": "Karol G",
+          "highlights": "Karol G habla sobre su crecimiento artístico y su visión del reguetón como una plataforma global.",
+          "content": "La cantante colombiana comparte su entusiasmo por conectar con sus fans en México y la importancia de representar a las mujeres en el género urbano."
+        }
+      ],
+      "news": [
+        {
+          "headline": "Ritmo Urbano Fest 2025 trae a las estrellas del reguetón",
+          "date": "2024-12-15",
+          "content": "El festival contará con grandes figuras del género urbano, incluyendo a Bad Bunny y Daddy Yankee como sus principales exponentes."
+        }
+      ]
+    }
+  ]
+}
