@@ -1,7 +1,17 @@
 <template>
   <div class="page">
     <PrinciplaCard />
-    <News />
+    <v-row>
+      <v-col cols="12" md="8">
+        <News />
+      </v-col>
+      <v-col cols="12" md="4">
+        <Concerts />
+      </v-col>
+    </v-row>
+    <v-row>
+      <Interviews />
+    </v-row>
     <section class="about">
       <div class="container-about">
         <p>
@@ -69,6 +79,8 @@
 import { ref } from "vue";
 import PrinciplaCard from "../components/home/PrinciplaCard.vue";
 import News from "../components/home/News.vue";
+import Concerts from "../components/home/Concerts.vue";
+import Interviews from "../components/home/Interviews.vue";
 
 const message = ref("Welcome to the home page!");
 

@@ -1,0 +1,39 @@
+{
+  "upcomingConcerts": [
+    {
+      "title": "Vive Latino 2025",
+      "subtitle": "El festival de rock más grande de Latinoamérica",
+      "date": "2025-03-15",
+      "location": "Foro Sol, Ciudad de México",
+      "description": "Vive Latino 2025 contará con artistas de renombre en géneros de rock, alternativo y otros estilos. Este año se espera la participación de bandas internacionales y grandes talentos mexicanos."
+    },
+    {
+      "title": "Corona Capital 2024",
+      "subtitle": "Festival de música alternativa y rock",
+      "date": "2024-11-18",
+      "location": "Autódromo Hermanos Rodríguez, Ciudad de México",
+      "description": "Corona Capital reúne a las mejores bandas de música alternativa y rock en un solo lugar. Este año contará con tres días de conciertos y múltiples escenarios."
+    },
+    {
+      "title": "Tecate Comuna 2024",
+      "subtitle": "Festival de música para todas las edades",
+      "date": "2024-10-21",
+      "location": "Parque Ecológico, Puebla",
+      "description": "El festival Tecate Comuna presenta una alineación con lo mejor de la música urbana, indie y rock. Es un evento para disfrutar en familia y con amigos."
+    },
+    {
+      "title": "Coca-Cola Flow Fest 2024",
+      "subtitle": "El festival urbano más importante de México",
+      "date": "2024-12-02",
+      "location": "Autódromo Hermanos Rodríguez, Ciudad de México",
+      "description": "Coca-Cola Flow Fest se ha consolidado como uno de los festivales de música urbana más importantes en México, con los artistas más populares de reguetón y trap."
+    },
+    {
+      "title": "Hell and Heaven Metal Fest 2024",
+      "subtitle": "Festival dedicado al metal y sus subgéneros",
+      "date": "2024-12-15",
+      "location": "Parque Bicentenario, Ciudad de México",
+      "description": "Hell and Heaven Metal Fest es un evento que celebra el metal en todas sus formas. Este año contará con bandas legendarias y nuevas propuestas del género."
+    }
+  ]
+}
